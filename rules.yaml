@@ -1,0 +1,3 @@
+# rules.yaml
+training_completed: true  # deve aver completato il training
+medical_certificate: true # deve avere certificato medico valido
