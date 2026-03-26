@@ -1,17 +1,52 @@
+# -------------------------------
 # Python
+# -------------------------------
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
-.env
+*.pyc
+*.env
+
+# -------------------------------
+# Virtual environment
+# -------------------------------
 .venv/
+venv/
+env/
 
+# -------------------------------
 # VSCode
+# -------------------------------
 .vscode/
+.history/
+*.code-workspace
 
-# Database / cache
+# -------------------------------
+# System files
+# -------------------------------
+Thumbs.db
+.DS_Store
+desktop.ini
+*.log
 *.sqlite3
-*.db
+
+# -------------------------------
+# MySQL / DB / tools
+# -------------------------------
+*.sql
 .dbclient/
-.Docker/
-AppData/
+*.db
+*.sqlite
+
+# -------------------------------
+# dotenv
+# -------------------------------
+.env
+.env.*   # eventuali altri file env
+
+# -------------------------------
+# Streamlit / cache
+# -------------------------------
+.streamlit/
+.cache/
